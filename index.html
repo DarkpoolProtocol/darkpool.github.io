@@ -1,598 +1,724 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<!-- Meta -->
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta content="Anil z" name="author">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="The purpose of DarkPool Protocol is to build a distributed business application ecosystem of a commercial blockchain, provide blockchain operation products for various industry sectors, and create a high-performance, highly available and easily scalable commercial-grade underlying blockchain platform." />
-<meta content="Darkpool - The digital asset exchange." name="site_name">
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="Anil z" name="author">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="The purpose of DarkPool Protocol is to build a distributed business application ecosystem of a commercial blockchain, provide blockchain operation products for various industry sectors, and create a high-performance, highly available and easily scalable commercial-grade underlying blockchain platform." />
+  <meta content="Darkpool - The digital asset exchange." name="site_name">
 
-<meta content="800" name="image:width">
-<meta content="400" name="image:height">
-<!-- SITE TITLE -->
-<title>Darkpool - The digital asset exchange.</title>
-<!-- Favicon Icon -->
-<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
-<!-- Animation CSS -->
-<link rel="stylesheet" href="assets/css/animate.css" >		
-<!-- Latest Bootstrap min CSS -->
-<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-<!-- Google Font -->
-<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-<!-- Font Awesome CSS -->
-<link rel="stylesheet" href="assets/css/ionicons.min.css">
-<!--- owl carousel CSS-->
-<link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.min.css">
-<link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
-<!-- Magnific Popup CSS -->
-<link rel="stylesheet" href="assets/css/magnific-popup.css">
-<!-- Style CSS -->
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/responsive.css">
-<link id="layoutstyle" rel="stylesheet" href="assets/color/theme.css">
+  <meta content="800" name="image:width">
+  <meta content="400" name="image:height">
+  <!-- SITE TITLE -->
+  <title>Darkpool - The digital asset exchange.</title>
+  <!-- Favicon Icon -->
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+  <!-- Animation CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <!-- Latest Bootstrap min CSS -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="assets/css/ionicons.min.css">
+  <!--- owl carousel CSS-->
+  <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
+  <!-- Magnific Popup CSS -->
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link id="layoutstyle" rel="stylesheet" href="assets/color/theme.css">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106310707-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
- gtag('config', 'UA-106310707-1', { 'anonymize_ip': true });
-</script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106310707-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-106310707-1', { 'anonymize_ip': true });
+  </script>
 
-<!-- Start of StatCounter Code -->
-<script>
-	<!--
-	var sc_project=11921154;
-	var sc_security="6c07f98b";
-		var scJsHost = (("https:" == document.location.protocol) ?
-		"https://secure." : "http://www.");
-			//-->
-			
-document.write("<sc"+"ript src='" +scJsHost +"statcounter.com/counter/counter.js'></"+"script>");
-</script>
-<noscript><div class="statcounter"><a title="web analytics" href="https://statcounter.com/"><img class="statcounter" src="https://c.statcounter.com/11921154/0/6c07f98b/0/" alt="web analytics" /></a></div></noscript>
-<!-- End of StatCounter Code -->
+  <!-- Start of StatCounter Code -->
+  <script>
+    // <!--
+    // var sc_project=11921154;
+    // var sc_security="6c07f98b";
+    // 	var scJsHost = (("https:" == document.location.protocol) ?
+    // 	"https://secure." : "http://www.");
+    // 		//-->
+
+    document.write("<sc" + "ript src='" + scJsHost + "statcounter.com/counter/counter.js'></" + "script>");
+  </script>
+  <noscript>
+    <div class="statcounter"><a title="web analytics" href="https://statcounter.com/"><img class="statcounter"
+          src="https://c.statcounter.com/11921154/0/6c07f98b/0/" alt="web analytics" /></a></div>
+  </noscript>
+  <!-- End of StatCounter Code -->
 
 </head>
 
 <body class="v_dark" data-spy="scroll" data-offset="110">
 
-<!-- LOADER -->
-<div class="preloader">
+  <!-- LOADER -->
+  <div class="preloader">
     <div id="g-spinner" class="loading">
-        <div class="circle c1"></div>
-        <div class="circle c2"></div>
-        <div class="circle c3"></div>
-        <div class="circle c4"></div>
+      <div class="circle c1"></div>
+      <div class="circle c2"></div>
+      <div class="circle c3"></div>
+      <div class="circle c4"></div>
     </div>
-</div>
-<!-- END LOADER --> 
+  </div>
+  <!-- END LOADER -->
 
-<!-- START HEADER -->
-<header class="header_wrap fixed-top">
-  <div class="container">
-    <nav class="navbar navbar-expand-lg"> 
-    	<a class="navbar-brand page-scroll animation" href="index.html" data-animation="fadeInLeft" data-animation-delay="0.8s">
-        	<img class="logo_light" src="assets/images/logo.png" alt="logo" />
-            <img class="logo_dark" src="assets/images/logo_dark.png" alt="logo" />
+  <!-- START HEADER -->
+  <header class="header_wrap fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand page-scroll animation" href="index.html" data-animation="fadeInLeft"
+          data-animation-delay="0.8s">
+          <img class="logo_light" src="assets/images/logo.png" alt="logo" />
+          <img class="logo_dark" src="assets/images/logo_dark.png" alt="logo" />
         </a>
-      <button class="navbar-toggler animation" data-animation="fadeInRight" data-animation-delay="1.2s" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="ion-android-menu"></span> </button>
-      
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav animation" data-animation="fadeInDown" data-animation-delay="1.2s">
-          <li><a class="nav-link page-scroll" href="#how_it_work">How it Work</a></li>
-          <li><a class="nav-link page-scroll" href="#about">About</a></li>
-          <li><a class="nav-link page-scroll" href="#token">Token</a></li>
-          
-          
-          <li><a class="nav-link page-scroll" href="#faq">FAQ</a></li>
-          <li><a class="nav-link page-scroll" href="http://pubdown.365vipbox.com/app.php/5">Download App</a></li>
-        </ul>
-        <ul class="navbar-nav nav_btn animation" data-animation="fadeInRight" data-animation-delay="1.6s">
-          
-          <li><a class="nav-link page-scroll btn btn-default" href="https://drive.google.com/file/d/1_EH2WyytxluTw_3k9ca7Jw7ga3G8YCTq/view?usp=sharing">Whitepaper</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-</header>
-<!-- START HEADER --> 
+        <button class="navbar-toggler animation" data-animation="fadeInRight" data-animation-delay="1.2s" type="button"
+          data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation"> <span class="ion-android-menu"></span> </button>
 
-<!-- START SECTION BANNER -->
-<section id="home" class="banner_section section_gradiant_dark small_pb">
-  <div id="banner_bg_effect" class="banner_effect"></div>
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-6 col-md-12 col-sm-12 order-lg-first text_md_center">
-        <div class="banner_text">
-          <h1 class="animation" data-animation="fadeInUp" data-animation-delay="1.5s">We introduce <span>Darkpool</span></h1>
-          <h3 class="animation" data-animation="fadeInUp" data-animation-delay="1.6s"><br></h3>
-          <p class="animation" data-animation="fadeInUp" data-animation-delay="1.7s">the first decentralized dark pool protocol bridging broad digital assets to DeFi.</p>
-          <div class="banner_btn animation" data-animation="fadeInUp" data-animation-delay="1.8s">
-          	<a href="#whitepaper" class="btn btn-default page-scroll nav-link">Whitepapter <i class="ion-ios-arrow-thin-right"></i></a>
-            <a href="#about" class="btn btn-border">Learn more <i class="ion-ios-arrow-thin-right"></i></a> </div>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav animation" data-animation="fadeInDown" data-animation-delay="1.2s">
+            <li><a class="nav-link page-scroll" href="#how_it_work">How it Work</a></li>
+            <li><a class="nav-link page-scroll" href="#about">About</a></li>
+            <li><a class="nav-link page-scroll" href="#token">Token</a></li>
+
+
+            <li><a class="nav-link page-scroll" href="#faq">FAQ</a></li>
+            <li><a class="nav-link page-scroll"
+                href="https://cdn.jsdelivr.net/gh/DarkpoolProtocol/darkpool.github.io@2.1.64/2.1.64.apk">Download
+                App</a></li>
+          </ul>
+          <ul class="navbar-nav nav_btn animation" data-animation="fadeInRight" data-animation-delay="1.6s">
+
+            <li><a class="nav-link page-scroll btn btn-default"
+                href="https://cdn.jsdelivr.net/gh/DarkpoolProtocol/darkpool.github.io@wp/Darkpool.Whitepaper.pdf">Whitepaper</a>
+            </li>
+          </ul>
         </div>
-      </div>
-      <div class="col-lg-6 col-md-12 col-sm-12 order-first">
-        <div class="banner_image_right res_md_mb_50 res_xs_mb_30 animation" data-animation="fadeInRight" data-animation-delay="1.5s"> 
-        	<img src="assets/images/banner_vector2.png" alt="banner_vector2"/> 
-        </div>
-        </div>
+      </nav>
     </div>
-  </div>
-</section>
-<!-- END SECTION BANNER --> 
+  </header>
+  <!-- START HEADER -->
 
-<!-- START SECTION HOW IT WORK -->
-<section id="how_it_work" class="how_work small_pt small_pb" data-parallax="scroll" data-image-src="assets/images/team_bg2.png">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-5 col-md-12 col-sm-12">
-        <div class="title_light">
-          <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">How the Darkpool Protocol works</h2>
-          <p class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">The primary technical goal of the Darkpool Protocol is to enable a decentralized network of nodes to
-match orders, without knowing anything about the orders. While it might seem like this is impossible, it can be achieved by applying cryptographic techniques that have been thoroughly 
-researched over that last 30 years; modifying them to be suitable for the world of decentralized computation.
-</p>
-        </div>
-        <a href="http://pubdown.365vipbox.com/app.php/5" class="btn btn-default page-scroll animation" data-animation="fadeInUp" data-animation-delay="0.3s">Download App <i class="ion-ios-arrow-thin-right"></i></a> </div>
-      <div class="col-lg-7 col-md-12 col-sm-12">
-        <div class="work_box animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-          <div class="box_inner"> <i class="ion-person-add"></i>
-            <h4>Decentralized Order Matching</h4>
-            <p>Order matching is the process through which nodes match orders against each other without being able to observe the details of the order.
-			To achieve this, traders first breakup their order into a set of order fragments</p>
+  <!-- START SECTION BANNER -->
+  <section id="home" class="banner_section section_gradiant_dark small_pb">
+    <div id="banner_bg_effect" class="banner_effect"></div>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-12 col-sm-12 order-lg-first text_md_center">
+          <div class="banner_text">
+            <h1 class="animation" data-animation="fadeInUp" data-animation-delay="1.5s">We introduce
+              <span>Darkpool</span></h1>
+            <h3 class="animation" data-animation="fadeInUp" data-animation-delay="1.6s"><br></h3>
+            <p class="animation" data-animation="fadeInUp" data-animation-delay="1.7s">the first decentralized dark pool
+              protocol bridging broad digital assets to DeFi.</p>
+            <div class="banner_btn animation" data-animation="fadeInUp" data-animation-delay="1.8s">
+              <a href="https://cdn.jsdelivr.net/gh/DarkpoolProtocol/darkpool.github.io@wp/Darkpool.Whitepaper.pdf"
+                class="btn btn-default page-scroll nav-link">Whitepapter <i class="ion-ios-arrow-thin-right"></i></a>
+              <a href="#about" class="btn btn-border">Learn more <i class="ion-ios-arrow-thin-right"></i></a> </div>
           </div>
         </div>
-        <div class="work_box animation" data-animation="fadeInUp" data-animation-delay="0.5s">
-          <div class="box_inner"> <i class="ion-ios-locked"></i>
-            <h4>Security Model</h4>
-            <p>The ideal Darkpool Protocol contains a trusted, and incorruptible, third-party T. 
-			Traders submit their orders to T, and T guarantees to never reveal the details of these orders. </p>
-          </div>
-        </div>
-        <div class="work_box animation" data-animation="fadeInUp" data-animation-delay="0.6s">
-          <div class="box_inner"> <i class="ion-android-cart"></i>
-            <h4>DAP Tokens</h4>
-            <p>when running and maintaining order matching nodes is not free. The DAP token is introduced to provide this incentivization.
-			It is also used to pay bonds to the Registrar, allowing traders and order matching nodes to participate in the Darkpool.</p>
+        <div class="col-lg-6 col-md-12 col-sm-12 order-first">
+          <div class="banner_image_right res_md_mb_50 res_xs_mb_30 animation" data-animation="fadeInRight"
+            data-animation-delay="1.5s">
+            <img src="assets/images/banner_vector2.png" alt="banner_vector2" />
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="shape shap5"></div>
-</section>
-<!-- END SECTION HOW IT WORK --> 
-
-<!-- START SECTION ABOUT US -->
-<section id="about" class="small_pt small_pb">
+  </section>
+  <!-- END SECTION BANNER -->
   <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <div class="title_light"> 
-          <span class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">What is Darkpool</span>
-          <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">About The Darkpool</h2>
-          <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">We introduce Darkpool, the first decentralized dark pool protocol bridging broad digital assets to DeFi. 
-		  With interoperability in mind and solid team cross-chain expertise Darkpool blockchain will bring new markets to the Cosmos ecosystem providing 
-		  users with the liquidity and the necessary fundamentals for DeFi applications and services. </p>
-          <p class="animation" data-animation="fadeInUp" data-animation-delay="0.5s">Darkpool removes the need for a trusted 
-		  intermediary to operate a dark pool and provides crypto-economic incentives through a protocol token for governance;
-		  enabling the development of a secure, decentralized, scalable dark pool protocol capable of handling billions in trading volume daily. </p>
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <div class="serviceBox">
+          <div class="service-icon">
+            <span><i class="fa fa-check-square"></i></span>
+          </div>
+          <div class="service-content">
+            <h3 class="title">Vote</h3>
+            <p class="description">Vote on projects to support.<br><br><br></p>
+          </div>
         </div>
-        <a href="https://www.youtube.com/watch?v=ZE2HxTmxfrI" class="btn btn-default video animation" data-animation="fadeInUp" data-animation-delay="0.6s"><span class="ion-play"></span>Let's Start <i class="ion-ios-arrow-thin-right"></i></a> </div>
-      <div class="col-lg-6 col-md-6 col-sm-12"> 
-		<div class="animation res_sm_mt_30" data-animation="fadeInRight" data-animation-delay="0.1s">
-        	<img src="assets/images/about_img3.png" alt="aboutimg"/> 
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="serviceBox red">
+          <div class="service-icon">
+            <span><i class="fa fa-exclamation-triangle"></i></span>
+          </div>
+          <div class="service-content">
+            <h3 class="title">Engage</h3>
+            <p class="description">Engage with project team members, providing feedback, testing andpossible follow on
+              investment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="serviceBox">
+          <div class="service-icon">
+            <span><i class="fa fa-rocket"></i></span>
+          </div>
+          <div class="service-content">
+            <h3 class="title">Lead</h3>
+            <p class="description">Vote on proposals. This can be direct vote or delegated to the node leader.<br><br>
+            </p>
+          </div>
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- START SECTION HOW IT WORK -->
+  <section id="how_it_work" class="how_work small_pt small_pb" data-parallax="scroll"
+    data-image-src="assets/images/team_bg2.png">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5 col-md-12 col-sm-12">
+          <div class="title_light">
+            <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">How the Darkpool Protocol works
+            </h2>
+            <p class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">The primary technical goal of the
+              Darkpool Protocol is to enable a decentralized network of nodes to
+              match orders, without knowing anything about the orders. While it might seem like this is impossible, it
+              can be achieved by applying cryptographic techniques that have been thoroughly
+              researched over that last 30 years; modifying them to be suitable for the world of decentralized
+              computation.
+            </p>
+          </div>
+          <a href="https://cdn.jsdelivr.net/gh/DarkpoolProtocol/darkpool.github.io@2.1.64/2.1.64.apk"
+            class="btn btn-default page-scroll animation" data-animation="fadeInUp" data-animation-delay="0.3s">Download
+            App <i class="ion-ios-arrow-thin-right"></i></a>
+        </div>
+        <div class="col-lg-7 col-md-12 col-sm-12">
+          <div class="work_box animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+            <div class="box_inner"> <i class="ion-person-add"></i>
+              <h4>Decentralized Order Matching</h4>
+              <p>Order matching is the process through which nodes match orders against each other without being able to
+                observe the details of the order.
+                To achieve this, traders first breakup their order into a set of order fragments</p>
+            </div>
+          </div>
+          <div class="work_box animation" data-animation="fadeInUp" data-animation-delay="0.5s">
+            <div class="box_inner"> <i class="ion-ios-locked"></i>
+              <h4>Security Model</h4>
+              <p>The ideal Darkpool Protocol contains a trusted, and incorruptible, third-party T.
+                Traders submit their orders to T, and T guarantees to never reveal the details of these orders. </p>
+            </div>
+          </div>
+          <div class="work_box animation" data-animation="fadeInUp" data-animation-delay="0.6s">
+            <div class="box_inner"> <i class="ion-android-cart"></i>
+              <h4>DAP Tokens</h4>
+              <p>when running and maintaining order matching nodes is not free. The DAP token is introduced to provide
+                this incentivization.
+                It is also used to pay bonds to the Registrar, allowing traders and order matching nodes to participate
+                in the Darkpool.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shape shap5"></div>
+  </section>
+  <!-- END SECTION HOW IT WORK -->
+
+  <!-- START SECTION ABOUT US -->
+  <section id="about" class="small_pt small_pb">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="title_light">
+            <span class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">What is Darkpool</span>
+            <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">About The Darkpool</h2>
+            <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">We introduce Darkpool, the first
+              decentralized dark pool protocol bridging broad digital assets to DeFi.
+              With interoperability in mind and solid team cross-chain expertise Darkpool blockchain will bring new
+              markets to the Cosmos ecosystem providing
+              users with the liquidity and the necessary fundamentals for DeFi applications and services. </p>
+            <p class="animation" data-animation="fadeInUp" data-animation-delay="0.5s">Darkpool removes the need for a
+              trusted
+              intermediary to operate a dark pool and provides crypto-economic incentives through a protocol token for
+              governance;
+              enabling the development of a secure, decentralized, scalable dark pool protocol capable of handling
+              billions in trading volume daily. </p>
+          </div>
+          <a href="https://www.youtube.com/watch?v=ZE2HxTmxfrI" class="btn btn-default video animation"
+            data-animation="fadeInUp" data-animation-delay="0.6s"><span class="ion-play"></span>Let's Start <i
+              class="ion-ios-arrow-thin-right"></i></a>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="animation res_sm_mt_30" data-animation="fadeInRight" data-animation-delay="0.1s">
+            <img src="assets/images/about_img3.png" alt="aboutimg" />
+          </div>
+        </div>
+      </div>
+      <div class="divider large_divider"></div>
+      <div class="row text-center">
+        <div class="col-lg-8 col-md-12 offset-lg-2">
+          <div class="title_light">
+            <span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Why Darkpool</span>
+            <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Competitive Benefit</h2>
+            <p class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Competitive advantages are
+              conditions that allow a company or country to produce a good or service at equal value but at a lower
+              price or in a more desirable fashion</p>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center small_space benefit_wrap">
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+            <img src="assets/images/secure.png" alt="secure" />
+            <h6>Safe & Secure</h6>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+            <img src="assets/images/token.png" alt="token" />
+            <h6>Excerpt Tokens</h6>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.3s">
+            <img src="assets/images/payment.png" alt="payment" />
+            <h6>Easy Payment</h6>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+            <img src="assets/images/case.png" alt="case" />
+            <h6>Daily Cash Outs</h6>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.5s">
+            <img src="assets/images/app.png" alt="app" />
+            <h6>Smart Application</h6>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.6s">
+            <img src="assets/images/dilution.png" alt="dilution" />
+            <h6>NO DILUTION</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END SECTION ABOUT US -->
+
+  <!-- START SECTION TOKEN -->
+  <section id="token" class="section_token small_pt small_pb">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-12 col-sm-12 text_md_center">
+          <div class="title_light">
+            <span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Tokens</span>
+            <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Incentive model and
+              Applications</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                <h6>English name :</h6>
+                <p>Darkpool chain </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+                <h6>Abbreviation :</h6>
+                <p>DAP</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.3s">
+                <h6>Total Circulation :</h6>
+                <p> 1 (Billion)<br><br></p>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+                <h6>DAP functions :</h6>
+                <p> mining, DOLLAR
+                  issuance anchor, transactional gas </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.5s">
+                <h6>Pre-sale Amount :</h6>
+                <p>10 Millions<br><br></p>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.6s">
+                <h6>Pricing :</h6>
+                <p>Private Sale: 0.2 USD<br>
+                  Public Sale: 0.4 USD</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 offset-lg-0 col-md-8 offset-md-2 text_md_center res_md_mt_30">
+          <div class="title_light">
+            <span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Start In</span>
+            <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Darkpool</h2>
+            <ul>
+              <li>DAP is the world first electronic cash.
+              <li>Holding DAP is like holding your own bank.</li>
+              <li>You can trade safely.</li>
+              <li>Your asset is yours only and no one knows your balance nor be able to trace
+                your financial activities</li>
+            </ul>
+          </div>
+          <div class="tk_countdown text-center animation countdown_shape" data-animation="fadeInUp"
+            data-animation-delay="0.1s">
+
+          </div>
+        </div>
+      </div>
+      <div class="divider large_divider"></div>
+      <div class="row text-center">
+        <div class="col-md-12">
+          <div class="title_light">
+            <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Token Sale Proceeds</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center res_md_mt_20">
+        <div class="col-md-7">
+          <div class="token_chart res_sm_mb_30 text-center animation" data-animation="fadeInLeft"
+            data-animation-delay="0.2s">
+            <canvas id="token_sale"></canvas>
+            <div class="pie_chart_icon">
+              <img src="assets/images/pie_chart_icon.png" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <ul class="list_none chart_list">
+            <li class="color1 animation" data-animation="fadeInUp" data-animation-delay="0.3s">interconnection Dev.</li>
+            <li class="color2 animation" data-animation="fadeInUp" data-animation-delay="0.4s">Marketing & General</li>
+            <li class="color3 animation" data-animation="fadeInUp" data-animation-delay="0.5s">Mobile Ad Platform</li>
+            <li class="color4 animation" data-animation="fadeInUp" data-animation-delay="0.6s">Ad Platform Integration
+            </li>
+            <li class="color5 animation" data-animation="fadeInUp" data-animation-delay="0.7s">Operational Overhead</li>
+          </ul>
+        </div>
+      </div>
+      <div class="divider large_divider"></div>
+      <div class="row text-center">
+        <div class="col-md-12">
+          <div class="title_light">
+            <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Token Distribution</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center flex-row-reverse res_md_mt_20">
+        <div class="col-md-7">
+          <div class="token_chart res_sm_mb_30 text-center animation" data-animation="fadeInRight"
+            data-animation-delay="0.2s">
+            <canvas id="token_dist"></canvas>
+            <div class="pie_chart_icon">
+              <img src="assets/images/pie_chart_icon.png" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <ul class="list_none chart_list">
+            <li class="color4 animation" data-animation="fadeInUp" data-animation-delay="0.3s">ICO Sale</li>
+            <li class="color6 animation" data-animation="fadeInUp" data-animation-delay="0.4s">Build Out</li>
+            <li class="color7 animation" data-animation="fadeInUp" data-animation-delay="0.5s">Team & Advisers</li>
+            <li class="color3 animation" data-animation="fadeInUp" data-animation-delay="0.6s">Private Investors</li>
+            <li class="color2 animation" data-animation="fadeInUp" data-animation-delay="0.7s">Bounty</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="shape shap5"></div>
+    <div class="shape shap6"></div>
+  </section>
+  <!-- END SECTION TOKEN -->
+
+
+  <div id="faq">
     <div class="divider large_divider"></div>
     <div class="row text-center">
       <div class="col-lg-8 col-md-12 offset-lg-2">
-        <div class="title_light"> 
-			<span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Why Darkpool</span>
-			<h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Competitive Benefit</h2>
-			<p class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Competitive advantages are conditions that allow a company or country to produce a good or service at equal value but at a lower price or in a more desirable fashion</p>
+        <div class="title_light">
+          <span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">FAQs</span>
+          <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Frequently Asked Questions</h2>
+          <p class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Frequently asked questions (FAQ) or
+            Questions and Answers (Q&A), are listed questions and answers, all supposed to be commonly asked in some
+            context</p>
         </div>
       </div>
     </div>
-    <div class="row text-center small_space benefit_wrap">
-      <div class="col-lg-2 col-md-4 col-6">
-        <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.1s"> 
-        	<img src="assets/images/secure.png" alt="secure"/>
-			<h6>Safe & Secure</h6>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-4 col-6">
-        <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.2s"> 
-			<img src="assets/images/token.png" alt="token"/>
-			<h6>Excerpt Tokens</h6>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-4 col-6">
-        <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.3s"> 
-			<img src="assets/images/payment.png" alt="payment"/>
-			<h6>Easy Payment</h6>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-4 col-6">
-        <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.4s"> 
-			<img src="assets/images/case.png" alt="case"/>
-			<h6>Daily Cash Outs</h6>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-4 col-6">
-        <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.5s"> 
-			<img src="assets/images/app.png" alt="app"/>
-			<h6>Smart Application</h6>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-4 col-6">
-        <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.6s"> 
-			<img src="assets/images/dilution.png" alt="dilution"/>
-			<h6>NO DILUTION</h6>
+    <div class="row small_space">
+      <div class="col-lg-8 col-md-12 offset-lg-2">
+        <div id="accordion" class="faq_content">
+          <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+            <div class="card-header" id="headingOne">
+              <h6 class="mb-0"> <a data-toggle="collapse" href="#collapseOne" aria-expanded="true"
+                  aria-controls="collapseOne">What is DarkPool?</a> </h6>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body"> The purpose of DarkPool Protocol is to build a distributed business application
+                ecosystem of a commercial blockchain, provide blockchain operation products for various industry
+                sectors, and create a high-performance, highly available and easily scalable commercial-grade underlying
+                blockchain platform. </div>
+            </div>
+          </div>
+          <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+            <div class="card-header" id="headingTwo">
+              <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false"
+                  aria-controls="collapseTwo">Why does DarkPool exist?</a> </h6>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body"> In the traditional technology environment, investors are inevitably exposed when
+                they carry out large transactions, and large amounts of capital being traded will directly affect the
+                entire market. DarkPool open source protocol and blockchain basic services with high performance, high
+                reliability and high scalability can quickly build and meet the application scenarios of large-scale
+                users and maintain the stability of the market under the scenarios of large-scale transactions and
+                high-frequency transactions. </div>
+            </div>
+          </div>
+          <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.3s">
+            <div class="card-header" id="headingThree">
+              <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false"
+                  aria-controls="collapseThree">What main points does DarkPool solve?</a> </h6>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body"> DarkPool Protocol is a distributed and autonomous organization operating format.
+                It solves the problems of blockchain being directly applied to various complex business application
+                scenarios, the dilemma of mass data storage in large enterprises and institutions, the security risk of
+                user private keys, the cost of enterprise on chain application docking, and the definitions of privacy
+                protection and authority control. </div>
+            </div>
+          </div>
+          <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+            <div class="card-header" id="headingFour">
+              <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false"
+                  aria-controls="collapseFour">Why is DarkPool not afraid of imitation?</a> </h6>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+              <div class="card-body"> The development cost of public chain is too high, the technical requirements are
+                high, and the cycle takes too long.
+                ⁃ It takes a long time for the public chain to reach the commercial level.
+                ⁃ The cost of technical maintenance is too high.
+                ⁃ Top level technical team is needed.
+                ⁃ The cost of building a system with an exchange ecosystem is too high.
+                ⁃ A large professional management team is needed to operate large platforms.
+                ⁃ The cost of market education is too high.
+
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
     </div>
   </div>
-</section>
-<!-- END SECTION ABOUT US --> 
+  </div>
+  <div class="shape shap5"></div>
+  <div class="shape shap6"></div>
+  </section>
+  <!-- END SECTION TEAM -->
 
-<!-- START SECTION TOKEN -->
-<section id="token" class="section_token small_pt small_pb">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-7 col-md-12 col-sm-12 text_md_center">
-        <div class="title_light"> 
-			<span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Tokens</span>
-			<h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Incentive model and
-Applications</h2>
+  <!-- START SECTION WHITEPAPER & CONTACT -->
+  <section id="whitepaper" class="small_pt">
+    <div class="container">
+      <div class="row text_sm_center">
+        <div class="col-lg-7 col-md-7">
+          <div class="title_light">
+            <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Download Whitepaper</h2>
+            <p class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">We introduce Darkpool, the first
+              decentralized dark pool protocol bridging broad digital assets to DeFi.</p>
+            <p class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">With interoperability in mind and
+              solid team cross-chain expertise Darkpool blockchain will bring new markets to the Cosmos ecosystem
+              providing users with the liquidity and the necessary fundamentals for DeFi applications and
+              services.Trades are placed on a hidden order book and are matched through an engine built on a multi-party
+              computation protocol.</p>
+          </div>
+          <a class="btn btn-default animation" data-animation="fadeInUp" data-animation-delay="0.4s"
+            href="https://cdn.jsdelivr.net/gh/DarkpoolProtocol/darkpool.github.io@wp/Darkpool.Whitepaper.pdf"><span
+              class="ion-android-download"></span>Download Now <i class="ion-ios-arrow-thin-right"></i></a>
         </div>
+        <div class="col-lg-4 offset-lg-1 col-md-5">
+          <div class="res_md_mt_30 animation" data-animation="fadeInRight" data-animation-delay="0.1s">
+            <img alt="whitepaper" src="assets/images/whitepaper.png">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- START SECTION WHITEPAPER & CONTACT -->
+  <!-- News Area by ansh-->
+  <section id="whitepaper" class="section_token small_pt small_pb">
+    <div class="container">
+
+      <div class="row text-center">
+        <div class="col-md-12">
+          <div class="title_light">
+            <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Read Our Blog</h2>
+            <a href="blog/blog-2.html" class="button white ">view all<br /></a>
+            <br />
+          </div>
+        </div>
+      </div>
+
+      <div class="row align-items-center flex-row-reverse res_md_mt_20">
+        <div class="col-md-6 col-lg-6 ">
+
+          <div role="listitem" style="margin-left: 17px; margin-top: 10px;" class="collection-item w-dyn-item w-col"><a
+              href="post/projectideas.html" class="blog-wrapper w-inline-block">
+              <div class="blog-image"><img
+                  src="../uploads-ssl.webflow.com/5f3e0b1323ab5d313d5a1675/5f3e0b1323ab5d21f35a1729_luca-bravo-XJXWbfSo2f0-unsplash.jpg"
+                  alt="" sizes="(max-width: 479px) 87vw, (max-width: 767px) 77vw, (max-width: 991px) 41vw, 39vw"
+                  srcset="https://uploads-ssl.webflow.com/5f3e0b1323ab5d313d5a1675/5f3e0b1323ab5d21f35a1729_luca-bravo-XJXWbfSo2f0-unsplash-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/5f3e0b1323ab5d313d5a1675/5f3e0b1323ab5d21f35a1729_luca-bravo-XJXWbfSo2f0-unsplash-p-1600.jpeg 1600w, https://uploads-ssl.webflow.com/5f3e0b1323ab5d313d5a1675/5f3e0b1323ab5d21f35a1729_luca-bravo-XJXWbfSo2f0-unsplash-p-2000.jpeg 2000w, https://uploads-ssl.webflow.com/5f3e0b1323ab5d313d5a1675/5f3e0b1323ab5d21f35a1729_luca-bravo-XJXWbfSo2f0-unsplash-p-2600.jpeg 2600w, https://uploads-ssl.webflow.com/5f3e0b1323ab5d313d5a1675/5f3e0b1323ab5d21f35a1729_luca-bravo-XJXWbfSo2f0-unsplash-p-3200.jpeg 3200w, https://uploads-ssl.webflow.com/5f3e0b1323ab5d313d5a1675/5f3e0b1323ab5d21f35a1729_luca-bravo-XJXWbfSo2f0-unsplash.jpg 6000w" />
+                <div class="blog-overlay"></div>
+                <div class="blog-date left-top">
+                  <div class="date-number">19</div>
+                  <div class="data-name">Sep 2020</div>
+                </div>
+                <div class="blog-content normal-padding">
+                  <h2 class="blog-title">Darkpool - The Digital Asset Exchange</h2>
+                </div>
+                <div class="featured-post"></div>
+              </div>
+            </a></div>
+
+        </div>
+        <div class="col-md-6 col-lg-6 ">
+
+          <div role="listitem" style="margin-left: 17px; margin-top: 10px;" class="collection-item w-dyn-item w-col "><a
+              href="post/proposal.html" class="blog-wrapper w-inline-block">
+              <div class="blog-image"><img
+                  src="../uploads-ssl.webflow.com/5f3e0b1323ab5d313d5a1675/5f3e0b1323ab5db5e65a172a_charles-forerunner-3fPXt37X6UQ-unsplash.jpg"
+                  alt="" sizes="(max-width: 479px) 87vw, (max-width: 767px) 77vw, (max-width: 991px) 41vw, 39vw"
+                  srcset="https://uploads-ssl.webflow.com/5f3e0b1323ab5d313d5a1675/5f3e0b1323ab5db5e65a172a_charles-forerunner-3fPXt37X6UQ-unsplash-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5f3e0b1323ab5d313d5a1675/5f3e0b1323ab5db5e65a172a_charles-forerunner-3fPXt37X6UQ-unsplash-p-800.jpeg 800w, https://uploads-ssl.webflow.com/5f3e0b1323ab5d313d5a1675/5f3e0b1323ab5db5e65a172a_charles-forerunner-3fPXt37X6UQ-unsplash-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/5f3e0b1323ab5d313d5a1675/5f3e0b1323ab5db5e65a172a_charles-forerunner-3fPXt37X6UQ-unsplash-p-1600.jpeg 1600w, https://uploads-ssl.webflow.com/5f3e0b1323ab5d313d5a1675/5f3e0b1323ab5db5e65a172a_charles-forerunner-3fPXt37X6UQ-unsplash-p-2000.jpeg 2000w, https://uploads-ssl.webflow.com/5f3e0b1323ab5d313d5a1675/5f3e0b1323ab5db5e65a172a_charles-forerunner-3fPXt37X6UQ-unsplash.jpg 5184w" />
+                <div class="blog-overlay"></div>
+                <div class="blog-date left-top">
+                  <div class="date-number">18</div>
+                  <div class="data-name">Sep 2020</div>
+                </div>
+                <div class="blog-content normal-padding">
+                  <h2 class="blog-title">The First Decentralized Darkpool Protocol Bridging Broad digital assets to DeFi.</h2>
+                </div>
+                <div class="featured-post w-condition-invisible"></div>
+              </div>
+            </a></div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- START FOOTER SECTION -->
+  <footer>
+    <div class="top_footer bg_black_dark text_md_center">
+      <div class="container">
         <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.1s">
-              <h6>English name :</h6>
-              <p>Darkpool chain </p>
-            </div>
+          <div class="col-xl-3 col-lg-6 col-sm-12 res_lg_mb_50 res_sm_mb_40">
+            <h4 class="animation footer_title" data-animation="fadeInUp" data-animation-delay="0.2s">Social Media</h4>
+            <ul class="list_none footer_social">
+              <li><a href="https://www.facebook.com/darkpoolprotocol/"><img
+                    src="https://img.icons8.com/fluent/48/000000/facebook-new.png" /></a></li>
+              <li><a href="https://twitter.com/dpprotocol"><img
+                    src="https://img.icons8.com/fluent/48/000000/twitter.png" /></a></li>
+              <li><a href="https://www.reddit.com/user/darkpoolchain"><img
+                    src="https://img.icons8.com/fluent/48/000000/reddit.png" /></a></li>
+              <li><a href="https://medium.com/@darkpool"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;">
+                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                      stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                      font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                      style="mix-blend-mode: normal">
+                      <path d="M0,172v-172h172v172z" fill="none"></path>
+                      <g fill="#ecf0f1">
+                        <path
+                          d="M107.94792,30.23438c-3.44336,0.33594 -6.57878,2.32357 -8.51042,5.375l-19.93229,31.57813c-3.35937,-5.23503 -5.96289,-9.29427 -7.83854,-11.86979c-2.43555,-3.35937 -4.03125,-4.64713 -5.375,-5.15104l-36.50521,-17.91667c-3.52734,-1.70768 -7.27865,-1.67969 -10.30208,0.22396c-2.99544,1.87565 -4.70312,5.09506 -4.70312,8.95833v79.72917c0,4.8431 3.2194,9.74219 7.61458,11.86979l33.36979,16.34896c5.01107,1.87565 9.04232,1.17578 11.19792,-0.22396c3.16341,-2.07161 4.92708,-5.65494 4.92708,-9.85417v-23.73958l30.68229,14.78125l37.625,18.36458c3.13542,1.37174 8.67839,1.76367 12.54167,-0.22396c3.30339,-1.70768 4.92708,-5.43099 4.92708,-9.40625c0,0 0.02799,-67.35547 0,-79.95312c-0.02799,-2.65951 -1.34375,-6.01888 -6.04687,-8.73437c-5.15104,-2.93945 -15.50911,-8.23047 -37.40104,-19.03646c-1.95963,-0.95182 -4.19922,-1.31576 -6.27083,-1.11979zM110.1875,45.46354c9.54622,4.70313 22.17188,10.97396 29.78646,14.78125l-32.47396,51.0625l-19.48437,-30.90625zM29.11458,47.70313l28.21875,13.88542l0.22396,72.78646l-28.44271,-13.88542zM71.66667,81.74479c0.47591,0.72787 16.34896,25.53125 16.34896,25.53125l-16.34896,-7.83854zM143.33333,81.74479v52.40625l-25.53125,-12.31771z">
+                        </path>
+                      </g>
+                    </g>
+                  </svg></a></li>
+              <li><a href="https://t.me/darkpoolprotocol"><img
+                    src="https://img.icons8.com/fluent/48/000000/telegram-app.png" /></a></li>
+
+            </ul>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-              <h6>Abbreviation :</h6>
-              <p>DAP</p>
+          <div class="col-xl-6 col-lg-6 col-sm-12 res_lg_mb_50 res_sm_mb_40">
+            <div class="newsletter_form newslattter_small">
+              <h4 class="animation footer_title" data-animation="fadeInUp" data-animation-delay="0.2s">Darkpool</h4>
+              <p>The first decentralized dark pool protocol bridging broad digital assets to DeFi. With interoperability
+                in mind and solid team cross-chain expertise Darkpool blockchain will bring new markets to the Cosmos
+                ecosystem providing users with the liquidity and the necessary fundamentals for DeFi applications and
+                services.</p>
             </div>
+
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.3s">
-              <h6>Total Circulation :</h6>
-              <p> 1 (Billion)<br><br></p>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-              <h6>DAP functions :</h6>
-              <p> mining, DOLLAR
-issuance anchor, transactional gas </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.5s">
-              <h6>Pre-sale Amount :</h6>
-              <p>10 Millions<br><br></p>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.6s">
-              <h6>Pricing  :</h6>
-              <p>Private Sale: 0.2 USD<br>
-Public Sale: 0.4 USD</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-5 offset-lg-0 col-md-8 offset-md-2 text_md_center res_md_mt_30">
-        <div class="title_light"> 
-			<span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Start In</span>
-			<h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Darkpool</h2>
-			<ul>
-			<li>DAP is the world first electronic cash.
-<li>Holding DAP is like holding your own bank.</li>
-<li>You can trade safely.</li>
-<li>Your asset is yours only and no one knows your balance nor be able to trace
-your financial activities</li>
-			</ul>
-        </div>
-        <div class="tk_countdown text-center animation countdown_shape" data-animation="fadeInUp" data-animation-delay="0.1s">
-          
-        </div>
-      </div>
-    </div>
-    <div class="divider large_divider"></div>
-    <div class="row text-center">
-      <div class="col-md-12">
-        <div class="title_light">
-          <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Token Sale Proceeds</h2>
-        </div>
-      </div>
-    </div>
-    <div class="row align-items-center res_md_mt_20">
-      <div class="col-md-7">
-        <div class="token_chart res_sm_mb_30 text-center animation" data-animation="fadeInLeft" data-animation-delay="0.2s"> 
-			<canvas id="token_sale"></canvas>
-            <div class="pie_chart_icon">
-            	<img src="assets/images/pie_chart_icon.png"/>
-            </div>
-        </div>
-      </div>
-      <div class="col-md-5">
-        <ul class="list_none chart_list">
-          <li class="color1 animation" data-animation="fadeInUp" data-animation-delay="0.3s">interconnection Dev.</li>
-          <li class="color2 animation" data-animation="fadeInUp" data-animation-delay="0.4s">Marketing & General</li>
-          <li class="color3 animation" data-animation="fadeInUp" data-animation-delay="0.5s">Mobile Ad Platform</li>
-          <li class="color4 animation" data-animation="fadeInUp" data-animation-delay="0.6s">Ad Platform Integration</li>
-          <li class="color5 animation" data-animation="fadeInUp" data-animation-delay="0.7s">Operational Overhead</li>
-        </ul>
-      </div>
-    </div>
-    <div class="divider large_divider"></div>
-    <div class="row text-center">
-      <div class="col-md-12">
-        <div class="title_light">
-          <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Token Distribution</h2>
-        </div>
-      </div>
-    </div>
-    <div class="row align-items-center flex-row-reverse res_md_mt_20">
-      <div class="col-md-7">
-        <div class="token_chart res_sm_mb_30 text-center animation" data-animation="fadeInRight" data-animation-delay="0.2s"> 
-			<canvas id="token_dist"></canvas>
-            <div class="pie_chart_icon">
-            	<img src="assets/images/pie_chart_icon.png"/>
-            </div>
-        </div>
-      </div>
-      <div class="col-md-5">
-        <ul class="list_none chart_list">
-          <li class="color4 animation" data-animation="fadeInUp" data-animation-delay="0.3s">ICO Sale</li>
-          <li class="color6 animation" data-animation="fadeInUp" data-animation-delay="0.4s">Build Out</li>
-          <li class="color7 animation" data-animation="fadeInUp" data-animation-delay="0.5s">Team & Advisers</li>
-          <li class="color3 animation" data-animation="fadeInUp" data-animation-delay="0.6s">Private Investors</li>
-          <li class="color2 animation" data-animation="fadeInUp" data-animation-delay="0.7s">Bounty</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="shape shap5"></div>
-  <div class="shape shap6"></div>
-</section>
-<!-- END SECTION TOKEN --> 
+          <div class="col-xl-3 col-lg-12 col-sm-12">
+            <h4 class="animation footer_title" data-animation="fadeInUp" data-animation-delay="0.2s">Quick Links</h4>
+            <ul class="list_none footer_link animation" data-animation="fadeInUp" data-animation-delay="0.6s">
+              <li><a href="index.html">Darkpool</a></li>
+
+              <li><a href="#how_it_work">How It Works</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#token">Tokens</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="http://explorer.darkpool.pro/">Block Explorer</a></li>
 
 
-    <div id="faq">
-        <div class="divider large_divider"></div>
-        <div class="row text-center">
-          <div class="col-lg-8 col-md-12 offset-lg-2">
-			<div class="title_light"> 
-				<span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">FAQs</span>
-				<h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Frequently Asked Questions</h2>
-				<p class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Frequently asked questions (FAQ) or Questions and Answers (Q&A), are listed questions and answers, all supposed to be commonly asked in some context</p>
-            </div>
-          </div>
-        </div>
-        <div class="row small_space">
-          <div class="col-lg-8 col-md-12 offset-lg-2">
-            <div id="accordion" class="faq_content">
-              <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.1s">
-                <div class="card-header" id="headingOne">
-                  <h6 class="mb-0"> <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What is DarkPool?</a> </h6>
-                </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                  <div class="card-body"> The purpose of DarkPool Protocol is to build a distributed business application ecosystem of a commercial blockchain, provide blockchain operation products for various industry sectors, and create a high-performance, highly available and easily scalable commercial-grade underlying blockchain platform. </div>
-                </div>
-              </div>
-              <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-                <div class="card-header" id="headingTwo">
-                  <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Why does DarkPool exist?</a> </h6>
-                </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                  <div class="card-body"> In the traditional technology environment, investors are inevitably exposed when they carry out large transactions, and large amounts of capital being traded will directly affect the entire market. DarkPool open source protocol and blockchain basic services with high performance, high reliability and high scalability can quickly build and meet the application scenarios of large-scale users and maintain the stability of the market under the scenarios of large-scale transactions and high-frequency transactions. </div>
-                </div>
-              </div>
-              <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.3s">
-                <div class="card-header" id="headingThree">
-                  <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">What main points does DarkPool solve?</a> </h6>
-                </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                  <div class="card-body"> DarkPool Protocol is a distributed and autonomous organization operating format. It solves the problems of blockchain being directly applied to various complex business application scenarios, the dilemma of mass data storage in large enterprises and institutions, the security risk of user private keys, the cost of enterprise on chain application docking, and the definitions of privacy protection and authority control. </div>
-                </div>
-              </div>
-              <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                <div class="card-header" id="headingFour">
-                  <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Why is DarkPool not afraid of imitation?</a> </h6>
-                </div>
-                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                  <div class="card-body"> The development cost of public chain is too high, the technical requirements are high, and the cycle takes too long.
- ⁃ It takes a long time for the public chain to reach the commercial level.
- ⁃ The cost of technical maintenance is too high.
- ⁃ Top level technical team is needed.
- ⁃ The cost of building a system with an exchange ecosystem is too high.
- ⁃ A large professional management team is needed to operate large platforms.
- ⁃ The cost of market education is too high.
 
- </div>
-                </div>
-				
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-  </div>
-  <div class="shape shap5"></div>
-  <div class="shape shap6"></div>
-</section>
-<!-- END SECTION TEAM --> 
-
-<!-- START SECTION WHITEPAPER & CONTACT -->
-<section id="whitepaper" class="small_pt">
-	<div class="container">
-    	<div class="row text_sm_center">
-            <div class="col-lg-7 col-md-7">
-            <div class="title_light">
-              <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Download Whitepaper</h2>
-              <p class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">We introduce Darkpool, the first decentralized dark pool protocol bridging broad digital assets to DeFi.</p>
-              <p class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">With interoperability in mind and solid team cross-chain expertise Darkpool blockchain will bring new markets to the Cosmos ecosystem providing users with the liquidity and the necessary fundamentals for DeFi applications and services.Trades are placed on a hidden order book and are matched through an engine built on a multi-party computation protocol.</p>
-            </div>
-            <a class="btn btn-default animation" data-animation="fadeInUp" data-animation-delay="0.4s" href="https://drive.google.com/file/d/1_EH2WyytxluTw_3k9ca7Jw7ga3G8YCTq/view?usp=sharing"><span class="ion-android-download"></span>Download Now <i class="ion-ios-arrow-thin-right"></i></a> </div>
-      		<div class="col-lg-4 offset-lg-1 col-md-5"> 
-            	<div class="res_md_mt_30 animation" data-animation="fadeInRight" data-animation-delay="0.1s">
-                	<img alt="whitepaper" src="assets/images/whitepaper.png"> 
-                </div>
-            </div>
-    	</div>
-        
-    </div>
-</section>
-<!-- START SECTION WHITEPAPER & CONTACT -->
-<!-- News Area-->
-    <section class="saasbox-news-area news2 section-padding-120">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-sm-9 col-lg-7 col-xxl-6">
-            <div class="section-heading text-center">
-              <h6>Latest info</h6>
-              <h2>All Trending News</h2>
-              <p>Check the latest news about the Darkpool.</p>
-            </div>
+            </ul>
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row justify-content-center g-5">
-          <!-- Blog Card-->
-          <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-            <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms"><a class="d-block mb-4" href="blog-card.html"><img src="assets/images/blog/blog4.jpg" alt=""></a>
-              <div class="post-content"><a class="d-block mb-1" href="blog-card.html">News</a><a class="post-title d-block mb-3" href="https://www.issuewire.com/the-first-decentralized-darkpool-protocol-bridging-broad-digital-assets-to-defi-1675545392369652">
-                  <h4>The First Decentralized Darkpool Protocol Bridging Broad digital assets to DeFi.</h4></a>
-                <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>2 min read</span></div>
-              </div>
-            </div>
-          </div>
-          <!-- Blog Card    -->
-          <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-            <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
-              <div class="image-wrap mb-4"><img src="assets/images/blog/blog5.jpg" alt="">
-                <!-- Video--><span class="video-content"><a class="video-play-btn" href="https://www.youtube.com/watch?v=X_93H_60Pls"><i class="lni-play"></i></a></span>
-              </div>
-              <div class="post-content"><a class="d-block mb-1" href="blog-card.html">News</a><a class="post-title d-block mb-3" href="https://www.issuewire.com/darkpool-the-digital-asset-exchange-1676064932687460">
-                  <h4>Darkpool - The Digital Asset Exchange.<br><br></h4></a>
-                <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>4 min read</span></div>
-              </div>
-            </div>
-          </div>
-          <!-- Blog Card-->
-          <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-            <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms"><a class="d-block mb-4" href="blog-card.html"><img src="assets/images/blog/blog6.jpg" alt=""></a>
-              <div class="post-content"><a class="d-block mb-1" href="blog-card.html">News</a><a class="post-title d-block mb-3" href="http://markets.ask.com/ask/news/read/40312775">
-                  <h4>The ideal Darkpool Protocol contains a trusted, and incorruptible, third-party T.</h4></a>
-                <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>3 min read</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-<!-- START FOOTER SECTION --> 
-<footer>
-	<div class="top_footer bg_black_dark text_md_center">
-        <div class="container">
-            <div class="row">
-            	<div class="col-xl-3 col-lg-6 col-sm-12 res_lg_mb_50 res_sm_mb_40">
-                	<h4 class="animation footer_title" data-animation="fadeInUp" data-animation-delay="0.2s">Social Media</h4>
-                    <ul class="list_none footer_social">
-                    	<li><a href="https://www.facebook.com/darkpoolprotocol/"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></a></li>
-                        <li><a href="https://twitter.com/dpprotocol"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a></li>
-                        <li><a href="https://www.reddit.com/user/darkpoolchain"><img src="https://img.icons8.com/fluent/48/000000/reddit.png"/></a></li>
-                        <li><a href="https://medium.com/@darkpool"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-width="24" height="24"
-viewBox="0 0 172 172"
-style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ecf0f1"><path d="M107.94792,30.23438c-3.44336,0.33594 -6.57878,2.32357 -8.51042,5.375l-19.93229,31.57813c-3.35937,-5.23503 -5.96289,-9.29427 -7.83854,-11.86979c-2.43555,-3.35937 -4.03125,-4.64713 -5.375,-5.15104l-36.50521,-17.91667c-3.52734,-1.70768 -7.27865,-1.67969 -10.30208,0.22396c-2.99544,1.87565 -4.70312,5.09506 -4.70312,8.95833v79.72917c0,4.8431 3.2194,9.74219 7.61458,11.86979l33.36979,16.34896c5.01107,1.87565 9.04232,1.17578 11.19792,-0.22396c3.16341,-2.07161 4.92708,-5.65494 4.92708,-9.85417v-23.73958l30.68229,14.78125l37.625,18.36458c3.13542,1.37174 8.67839,1.76367 12.54167,-0.22396c3.30339,-1.70768 4.92708,-5.43099 4.92708,-9.40625c0,0 0.02799,-67.35547 0,-79.95312c-0.02799,-2.65951 -1.34375,-6.01888 -6.04687,-8.73437c-5.15104,-2.93945 -15.50911,-8.23047 -37.40104,-19.03646c-1.95963,-0.95182 -4.19922,-1.31576 -6.27083,-1.11979zM110.1875,45.46354c9.54622,4.70313 22.17188,10.97396 29.78646,14.78125l-32.47396,51.0625l-19.48437,-30.90625zM29.11458,47.70313l28.21875,13.88542l0.22396,72.78646l-28.44271,-13.88542zM71.66667,81.74479c0.47591,0.72787 16.34896,25.53125 16.34896,25.53125l-16.34896,-7.83854zM143.33333,81.74479v52.40625l-25.53125,-12.31771z"></path></g></g></svg></a></li>
-                        <li><a href="https://t.me/darkpoolprotocol"><img src="https://img.icons8.com/fluent/48/000000/telegram-app.png"/></a></li>
-						
-                    </ul>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-sm-12 res_lg_mb_50 res_sm_mb_40">
-                    <div class="newsletter_form newslattter_small">
-                    	<h4 class="animation footer_title" data-animation="fadeInUp" data-animation-delay="0.2s">Darkpool</h4>
-                        <p>The first decentralized dark pool protocol bridging broad digital assets to DeFi. With interoperability in mind and solid team cross-chain expertise Darkpool blockchain will bring new markets to the Cosmos ecosystem providing users with the liquidity and the necessary fundamentals for DeFi applications and services.</p>
-                    </div>
-                    
-                </div>
-                <div class="col-xl-3 col-lg-12 col-sm-12">
-                	<h4 class="animation footer_title" data-animation="fadeInUp" data-animation-delay="0.2s">Quick Links</h4>
-                    <ul class="list_none footer_link animation" data-animation="fadeInUp" data-animation-delay="0.6s">
-                        <li><a href="index.html">Darkpool</a></li>
-                        
-                        <li><a href="#how_it_work">How It Works</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#token">Tokens</a></li>
-                        <li><a href="#faq">FAQ</a></li>
-                        <li><a href="http://explorer.darkpool.pro/">explorer.darkpool.pro/</a></li>
-                        <li><a href="http://explorer.profitlock.io/">explorer.profitlock.io/</a></li>
-                        
-                        
-                    </ul>
-                </div>
-            </div>
-        </div>
-  		<div class="rounded_shape light_rounded_shape4"></div>
+      <div class="rounded_shape light_rounded_shape4"></div>
     </div>
-    <div class="bottom_footer staggered-animation-wrap">
-    	<div class="container">
-        	<div class="row">
-            	<div class="col-md-6">
-                	<p class="copyright staggered-animation" data-animation="fadeInLeft" data-animation-delay="0.1s">Copyright © 2018 All Rights Reserved.</p>
-                </div>
-                <div class="col-md-6">
-                	<ul class="list_none footer_menu staggered-animation" data-animation="fadeInRight" data-animation-delay="0.2s">
-                    	<li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms & Conditions</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- END FOOTER SECTION --> 
 
-<a href="#" class="scrollup btn-default animation" data-animation="zoomIn" data-animation-delay="0.1s" style="display: none;"><i class="ion-ios-arrow-up"></i></a> 
+  </footer>
+  <!-- END FOOTER SECTION -->
 
-<!-- Latest jQuery --> 
-<script src="assets/js/jquery-1.12.4.min.js"></script> 
-<!-- Latest compiled and minified Bootstrap --> 
-<script src="assets/bootstrap/js/bootstrap.min.js"></script> 
-<!-- owl-carousel min js  --> 
-<script src="assets/owlcarousel/js/owl.carousel.min.js"></script> 
-<!-- magnific-popup min js  --> 
-<script src="assets/js/magnific-popup.min.js"></script> 
-<!-- waypoints min js  --> 
-<script src="assets/js/waypoints.min.js"></script> 
-<!-- parallax js  --> 
-<script src="assets/js/parallax.js"></script> 
-<!-- countdown js  --> 
-<script src="assets/js/jquery.countdown.min.js"></script> 
-<!-- particles min js  --> 
-<script src="assets/js/particles.min.js"></script>
-<!-- chart js  --> 
-<script src="assets/js/Chart.bundle.js"></script>
-<script src="assets/js/Chart.PieceLabel.min.js"></script>
-<script src="assets/js/chart_script.js"></script>
-<!-- scripts js --> 
-<script src="assets/js/scripts.js"></script>
+  <a href="#" class="scrollup btn-default animation" data-animation="zoomIn" data-animation-delay="0.1s"
+    style="display: none;"><i class="ion-ios-arrow-up"></i></a>
+
+  <!-- Latest jQuery -->
+  <script src="assets/js/jquery-1.12.4.min.js"></script>
+  <!-- Latest compiled and minified Bootstrap -->
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <!-- owl-carousel min js  -->
+  <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
+  <!-- magnific-popup min js  -->
+  <script src="assets/js/magnific-popup.min.js"></script>
+  <!-- waypoints min js  -->
+  <script src="assets/js/waypoints.min.js"></script>
+  <!-- parallax js  -->
+  <script src="assets/js/parallax.js"></script>
+  <!-- countdown js  -->
+  <script src="assets/js/jquery.countdown.min.js"></script>
+  <!-- particles min js  -->
+  <script src="assets/js/particles.min.js"></script>
+  <!-- chart js  -->
+  <script src="assets/js/Chart.bundle.js"></script>
+  <script src="assets/js/Chart.PieceLabel.min.js"></script>
+  <script src="assets/js/chart_script.js"></script>
+  <!-- scripts js -->
+  <script src="assets/js/scripts.js"></script>
 
 </body>
+
 </html>
